@@ -1,0 +1,4 @@
+interface:
+  display_name: "心血管医学文献中译"
+  short_description: "翻译文本、图片及PDF心血管医学文献并统一专业术语"
+  default_prompt: "使用 $translate-cardiovascular-literature-zh 将这份心血管医学材料翻译成规范、简洁的中文。"
