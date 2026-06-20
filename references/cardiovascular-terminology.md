@@ -32,6 +32,14 @@
 | free wall | 游离壁 |
 | ventricular outflow tract | 心室流出道 |
 | left ventricular summit | 左心室顶部 |
+| left coronary aortic sinus | 左冠状动脉窦 |
+| elevated infundibulum | 隆起漏斗部 |
+| transverse pericardial sinus / transverse sinus | 心包横窦 |
+| interleaflet triangle | 瓣间三角 |
+| left fibrous trigone | 左纤维三角 |
+| anterior mitral leaflet | 二尖瓣前叶 |
+| left coronary fossa | 左冠状动脉窝 |
+| anterior interventricular vein | 前室间静脉；需突出教材通行结构时可写“心大静脉前段（前室间静脉）” |
 | coronary sinus | 冠状静脉窦 |
 | sinus of Valsalva / aortic sinus | 主动脉窦 |
 | percutaneous coronary intervention | 经皮冠状动脉介入治疗 |
@@ -65,7 +73,11 @@
 | annulus | 解剖和瓣膜语境通常译为“瓣环”，注意影像学或功能性瓣环定义 |
 | ostium | 按结构译为“口”“开口”或“入口”，避免一律译为“开口部” |
 | sinus | 根据结构译为窦、静脉窦或主动脉窦，不得仅按字面处理 |
-| ridge / crest | 根据解剖形态译为嵴、隆嵴或脊，参照上下文及既定术语 |
+| ridge / crest | 已命名结构按规范译为嵴；仅表示形态时优先改写为“隆起的……”或“薄而隆起的……”，避免生造复合名称 |
+| attachment | 韧带、瓣叶等固定附着用“附着处”；心室之间的连续界面或连接关系可按教材语境译为“连接处” |
+| faces | 按空间关系译为“朝向”或“与……相对”，通常不译为“面对” |
+| skirts | 血管走行语境译为“沿……边缘走行”或“绕经……” |
+| compartment | 根据解剖语境译为间隙、区域或窝，不机械译为“室” |
 | isthmus | 解剖及电生理语境通常译为“峡部” |
 | recess / fossa | 分别根据结构译为隐窝/凹陷及窝，不可互换 |
 | sleeve | 心肌延伸语境常译为“肌袖” |
@@ -81,3 +93,4 @@
 - 发现国内存在多个通行译法时，优先采用用户或项目已确认的版本；否则选择教材中更常用且歧义更小者。
 - 对新的器械、试验、药物和技术名称，保留注册名称或英文缩写，避免自行创造中文名。
 - 不确定且影响医学含义时，核对权威术语来源；仍不能确定则保留英文并标注待核对。
+- 同一词的字面译法与教材常用表达冲突时，在不损失医学信息的前提下优先教材表达。例如形态性 `crest` 可转化为“隆起的”而非强行命名为“嵴”。
