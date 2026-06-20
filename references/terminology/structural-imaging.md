@@ -28,7 +28,7 @@
 | two-dimensional echocardiography | 二维超声心动图 | T/N | — |
 | Doppler echocardiography | 多普勒超声心动图 | T/N | — |
 | color flow imaging | 彩色血流成像 | G | — |
-| tissue Doppler imaging | 组织多普勒成像技术 | A | 03.316；TDI |
+| tissue Doppler imaging | 组织多普勒成像技术 | A0 | 03.316；TDI |
 | speckle-tracking echocardiography | 斑点追踪超声心动图 | G | — |
 | myocardial strain / strain rate | 心肌应变/应变率 | G | — |
 | global longitudinal strain | 整体纵向应变 | G | GLS |

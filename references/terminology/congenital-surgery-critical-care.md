@@ -31,7 +31,7 @@
 | pericardial patch | 心包补片 | T/G | — |
 | postoperative low cardiac output syndrome | 术后低心排血量综合征 | G | LCOS |
 | shock | 休克 | T/N | — |
-| cardiogenic shock | 心原性休克 | A | 04.028 |
+| cardiogenic shock | 心原性休克 | A0 | 04.028 |
 | obstructive/distributive/hypovolemic shock | 梗阻性/分布性/低血容量性休克 | T/N | — |
 | hemodynamic monitoring | 血流动力学监测 | T/G | — |
 | central venous pressure | 中心静脉压 | T/N | CVP |

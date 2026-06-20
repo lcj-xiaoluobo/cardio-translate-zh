@@ -12,7 +12,7 @@
 | advanced heart failure | 晚期心力衰竭 | G | — |
 | congestion | 淤血 | T/N | 心衰语境；勿泛译“充血” |
 | volume overload / pressure overload | 容量负荷过重/压力负荷过重 | T/N | — |
-| ventricular remodeling | 心室重塑 | A | 04.043 |
+| ventricular remodeling | 心室重塑 | A0 | 04.043 |
 | reverse remodeling | 逆重塑 | G | 依最高权限词“心室重塑”统一词根 |
 | natriuretic peptide | 利钠肽 | T/G | BNP、NT-proBNP |
 | guideline-directed medical therapy | 指南指导的药物治疗 | G | GDMT |
@@ -30,7 +30,7 @@
 | sarcomere | 肌节 | T/N | — |
 | myofibrillar disarray | 心肌纤维排列紊乱 | T/G | HCM病理语境 |
 | left ventricular outflow tract obstruction | 左心室流出道梗阻 | T/G | LVOTO |
-| systolic anterior motion | 二尖瓣前叶收缩期前移 | A | 04.634；SAM |
+| systolic anterior motion | 二尖瓣前叶收缩期前移 | A0 | 04.634；SAM |
 | sudden cardiac death risk stratification | 心脏性猝死风险分层 | G | — |
 | heart transplantation | 心脏移植 | T/G | — |
 | graft rejection | 移植物排斥反应 | T/N | — |
@@ -38,5 +38,5 @@
 | mechanical circulatory support | 机械循环支持 | G | MCS |
 | intra-aortic balloon pump | 主动脉内球囊反搏 | T/G | IABP |
 | ventricular assist device | 心室辅助装置 | G | VAD |
-| left ventricular assist device | 左心辅助装置 | A | 04.032；LVAD |
+| left ventricular assist device | 左心辅助装置 | A0 | 04.032；LVAD |
 | extracorporeal membrane oxygenation | 体外膜肺氧合 | G | ECMO |

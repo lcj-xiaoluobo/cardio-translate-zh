@@ -46,10 +46,11 @@
 | end-diastolic pressure | 舒张末期压力 | T/N | EDP |
 | ejection fraction | 射血分数 | T/N | EF |
 | stroke volume | 每搏输出量 | T/N | SV |
-| cardiac output / cardiac index | 心输出量/心指数 | A | 03.118/03.128；心排血量为心输出量的又称 |
+| cardiac output | 心输出量 | A0 | 03.118；“心排血量”为又称 |
+| cardiac index | 心指数 | A0 | 03.128 |
 | systemic/pulmonary vascular resistance | 体循环/肺循环血管阻力 | T/N | SVR/PVR |
 | mean arterial pressure | 平均动脉压 | T/N | MAP |
-| pulse pressure | 脉搏压 | A | 03.148 |
+| pulse pressure | 脉搏压 | A0 | 03.148 |
 | preload / afterload | 前负荷/后负荷 | T/N | — |
 | contractility | 收缩性 | T/N | 不等同于收缩功能 |
 | compliance | 顺应性 | T/N | — |

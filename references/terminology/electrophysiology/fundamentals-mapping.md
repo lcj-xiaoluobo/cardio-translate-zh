@@ -3,7 +3,7 @@
 | English | 首选中文 | 规范等级 | 本地书证/说明 |
 |---|---|---|---|
 | cardiac electrophysiology | 心脏电生理学 | T/N | M/HE |
-| electrophysiologic study/testing | 电生理检查 | A | 04.069；不机械译“电生理测试” |
+| electrophysiological study | 电生理检查 | A0 | 04.069；EPS；不机械译“电生理测试” |
 | intracardiac electrogram | 心内电图 | T/N | M/HE |
 | surface electrocardiogram | 体表心电图 | T/N | M/HE |
 | action potential | 动作电位 | T/N | M/HE |
@@ -28,7 +28,7 @@
 | programmed electrical stimulation | 程序电刺激 | T/G | M/HE；简称程序刺激 |
 | diagnostic maneuver | 电生理诊断方法 | T/G | M；按具体动作也可写诊断性刺激方法 |
 | perturbation of tachycardia | 干扰心动过速 | G | M/HE；指用刺激观察反应，不译“扰乱” |
-| incremental pacing | 分级递增刺激 | A | 04.248；按刺激频率递增 |
+| incremental pacing | 分级递增刺激 | A0 | 04.248；按刺激频率递增 |
 | decremental pacing | 递减起搏 | G | M；指逐渐缩短起搏周长 |
 | extrastimulus | 期前刺激 | T/G | M/HE |
 | drive train | 基础刺激序列 | G | M/HE；不可直译“驱动列车” |

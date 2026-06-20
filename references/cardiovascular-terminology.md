@@ -2,6 +2,15 @@
 
 本索引用于心血管医学英译中、术语统一、图注与图内标签翻译。详细条目按需从分库加载，避免把完整术语库一次性写入上下文。
 
+## 导航
+
+- [A0最高权限与裁决顺序](#a0-最高权限来源)
+- [强制检索流程](#强制检索流程)
+- [A0官方分库路由](#a0-官方分库路由)
+- [扩展分库路由](#扩展分库路由)
+- [高频规范词与易错词](#高频-a0-规范词)
+- [交付前术语核验](#交付前术语核验)
+
 ## A0 最高权限来源
 
 `references/terminology/cnterm-2025/` 收录全国科学技术名词审定委员会《心血管病学名词（2025）》征求意见稿的 **1,434 条**中英名词，覆盖 **30 个章节分库**。用户指定该 PDF 为本 Skill 的最高术语裁决来源。
@@ -51,39 +60,39 @@ rg -ni "English variant|ABBR|中文候选" references/terminology
 
 ## A0 官方分库路由
 
-总目录、每章条目数和编号冲突说明见 `terminology/cnterm-2025/README.md` 与 `code-collisions.md`。
+总目录、每章条目数和编号冲突说明见 `terminology/cnterm-2025/README.md` 与 `terminology/cnterm-2025/code-collisions.md`。
 
 | 内容 | A0 文件 |
 |---|---|
-| 学科、分支学科 | `cnterm-2025/01-disciplines.md`、`01-01-branches.md` |
-| 流行病学、研究设计、统计指标 | `cnterm-2025/02-epidemiology.md` |
-| 组织学 | `cnterm-2025/03-01-histology.md` |
-| 心血管解剖学 | `cnterm-2025/03-02-anatomy.md` |
-| 生理学、血流动力学 | `cnterm-2025/03-03-physiology.md` |
-| 病理学 | `cnterm-2025/03-04-pathology.md` |
-| 症状与体征 | `cnterm-2025/03-05-symptoms-signs.md` |
-| 检验、检查、影像和设备 | `cnterm-2025/03-06-tests-devices.md` |
-| 心力衰竭 | `cnterm-2025/04-01-heart-failure.md` |
-| 心律失常、电生理、起搏与消融 | `cnterm-2025/04-02-arrhythmia.md` |
-| 心脏骤停、心源性猝死 | `cnterm-2025/04-03-cardiac-arrest-scd.md` |
-| 先天性心脏病 | `cnterm-2025/04-04-congenital-heart-disease.md` |
-| 高血压 | `cnterm-2025/04-05-hypertension.md` |
-| 动脉粥样硬化、冠心病及介入 | `cnterm-2025/04-06-atherosclerosis-coronary.md` |
-| 心脏瓣膜病 | `cnterm-2025/04-07-valvular-heart-disease.md` |
-| 感染性心内膜炎 | `cnterm-2025/04-08-infective-endocarditis.md` |
-| 心肌疾病 | `cnterm-2025/04-09-myocardial-disease.md` |
-| 心包疾病 | `cnterm-2025/04-10-pericardial-disease.md` |
-| 主动脉和周围血管疾病 | `cnterm-2025/04-11-aortic-peripheral-vascular.md` |
-| 肺血管病 | `cnterm-2025/04-12-pulmonary-vascular.md` |
-| 心脏肿瘤 | `cnterm-2025/04-13-cardiac-tumor.md` |
-| 合理用药基本概念 | `cnterm-2025/05-01-pharmacotherapy-concepts.md` |
-| 抗高血压药物 | `cnterm-2025/05-02-antihypertensive-drugs.md` |
-| 抗心律失常药 | `cnterm-2025/05-03-antiarrhythmic-drugs.md` |
-| 心力衰竭治疗药物 | `cnterm-2025/05-04-heart-failure-drugs.md` |
-| 抗血小板和抗凝治疗 | `cnterm-2025/05-05-antiplatelet-anticoagulation.md` |
-| 调脂药 | `cnterm-2025/05-06-lipid-lowering-drugs.md` |
-| 心血管康复 | `cnterm-2025/06-cardiovascular-rehabilitation.md` |
-| 心血管护理 | `cnterm-2025/07-cardiovascular-nursing.md` |
+| 学科、分支学科 | `terminology/cnterm-2025/01-disciplines.md`、`terminology/cnterm-2025/01-01-branches.md` |
+| 流行病学、研究设计、统计指标 | `terminology/cnterm-2025/02-epidemiology.md` |
+| 组织学 | `terminology/cnterm-2025/03-01-histology.md` |
+| 心血管解剖学 | `terminology/cnterm-2025/03-02-anatomy.md` |
+| 生理学、血流动力学 | `terminology/cnterm-2025/03-03-physiology.md` |
+| 病理学 | `terminology/cnterm-2025/03-04-pathology.md` |
+| 症状与体征 | `terminology/cnterm-2025/03-05-symptoms-signs.md` |
+| 检验、检查、影像和设备 | `terminology/cnterm-2025/03-06-tests-devices.md` |
+| 心力衰竭 | `terminology/cnterm-2025/04-01-heart-failure.md` |
+| 心律失常、电生理、起搏与消融 | `terminology/cnterm-2025/04-02-arrhythmia.md` |
+| 心脏骤停、心源性猝死 | `terminology/cnterm-2025/04-03-cardiac-arrest-scd.md` |
+| 先天性心脏病 | `terminology/cnterm-2025/04-04-congenital-heart-disease.md` |
+| 高血压 | `terminology/cnterm-2025/04-05-hypertension.md` |
+| 动脉粥样硬化、冠心病及介入 | `terminology/cnterm-2025/04-06-atherosclerosis-coronary.md` |
+| 心脏瓣膜病 | `terminology/cnterm-2025/04-07-valvular-heart-disease.md` |
+| 感染性心内膜炎 | `terminology/cnterm-2025/04-08-infective-endocarditis.md` |
+| 心肌疾病 | `terminology/cnterm-2025/04-09-myocardial-disease.md` |
+| 心包疾病 | `terminology/cnterm-2025/04-10-pericardial-disease.md` |
+| 主动脉和周围血管疾病 | `terminology/cnterm-2025/04-11-aortic-peripheral-vascular.md` |
+| 肺血管病 | `terminology/cnterm-2025/04-12-pulmonary-vascular.md` |
+| 心脏肿瘤 | `terminology/cnterm-2025/04-13-cardiac-tumor.md` |
+| 合理用药基本概念 | `terminology/cnterm-2025/05-01-pharmacotherapy-concepts.md` |
+| 抗高血压药物 | `terminology/cnterm-2025/05-02-antihypertensive-drugs.md` |
+| 抗心律失常药 | `terminology/cnterm-2025/05-03-antiarrhythmic-drugs.md` |
+| 心力衰竭治疗药物 | `terminology/cnterm-2025/05-04-heart-failure-drugs.md` |
+| 抗血小板和抗凝治疗 | `terminology/cnterm-2025/05-05-antiplatelet-anticoagulation.md` |
+| 调脂药 | `terminology/cnterm-2025/05-06-lipid-lowering-drugs.md` |
+| 心血管康复 | `terminology/cnterm-2025/06-cardiovascular-rehabilitation.md` |
+| 心血管护理 | `terminology/cnterm-2025/07-cardiovascular-nursing.md` |
 
 ## 扩展分库路由
 

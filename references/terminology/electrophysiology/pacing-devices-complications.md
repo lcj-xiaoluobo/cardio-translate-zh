@@ -3,9 +3,9 @@
 | English | 首选中文 | 规范等级 | 本地书证/说明 |
 |---|---|---|---|
 | cardiac pacing | 心脏起搏 | T/N | M/HE |
-| pacemaker | 起搏器 | A | 04.203 |
-| implantable cardioverter-defibrillator | 植入型心律转复除颤器 | A | 03.357；ICD |
-| cardiac resynchronization therapy | 心脏再同步化治疗 | A | 03.358；CRT |
+| pacemaker | 起搏器 | A0 | 04.203 |
+| implantable cardioverter-defibrillator | 植入型心律转复除颤器 | A0 | 03.357；ICD |
+| cardiac resynchronization therapy | 心脏再同步化治疗 | A0 | 03.358；CRT |
 | cardiac resynchronization therapy defibrillator | 心脏再同步治疗除颤器 | G | HE；CRT-D |
 | cardiac resynchronization therapy pacemaker | 心脏再同步治疗起搏器 | G | HE；CRT-P |
 | leadless pacemaker | 无导线起搏器 | G | HE |
@@ -24,7 +24,7 @@
 | pacing output | 起搏输出 | T/G | M/HE |
 | pulse width | 脉宽 | T/N | M/HE |
 | lower rate limit | 低限频率 | G | M/HE |
-| atrioventricular delay | 房室延搁 | A | 03.112；AV delay；起搏器参数“房室间期”另见04.211 |
+| atrioventricular delay | 房室延搁 | A0 | 03.112；AV delay；起搏器参数“房室间期”另见04.211 |
 | ventricular blanking period | 心室空白期 | G | M/HE |
 | mode switching | 模式转换 | G | M/HE |
 | antitachycardia pacing | 抗心动过速起搏 | G | M/HE；ATP |

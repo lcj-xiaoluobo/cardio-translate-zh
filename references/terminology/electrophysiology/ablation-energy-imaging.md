@@ -9,8 +9,8 @@
 | transmural lesion | 透壁性损伤 | G | M/HE |
 | contiguous lesion | 连续性消融损伤 | G | HE |
 | durable lesion | 持久性消融损伤 | G | HE |
-| radiofrequency energy | 射频电能 | A | 04.250 |
-| radiofrequency catheter ablation | 经导管射频消融术 | A | 03.366；RFCA |
+| radiofrequency energy | 射频电能 | A0 | 04.250 |
+| radiofrequency catheter ablation | 经导管射频消融术 | A0 | 03.366；RFCA |
 | resistive heating | 阻抗性加热 | T/G | M/HE |
 | conductive heating | 传导性加热 | T/G | M/HE |
 | current density | 电流密度 | T/N | M/HE |
@@ -30,11 +30,11 @@
 | microbubble formation | 微气泡形成 | G | HE |
 | collateral injury | 邻近组织损伤 | G | HE |
 | cryoablation | 冷冻消融 | T/G | M/HE |
-| cryoballoon ablation | 冷冻球囊消融术 | A | 03.368 |
+| cryoballoon ablation | 冷冻球囊消融术 | A0 | 03.368 |
 | cryoadhesion | 冷冻黏附 | G | M/HE |
 | freeze-thaw cycle | 冻融循环 | T/G | M/HE |
 | laser balloon ablation | 激光球囊消融 | G | HE |
-| pulsed field ablation | 脉冲电场消融术 | A | 03.367；PFA |
+| pulsed field ablation | 脉冲电场消融术 | A0 | 03.367；PFA |
 | irreversible electroporation | 不可逆电穿孔 | G | HE；PFA主要机制 |
 | reversible electroporation | 可逆电穿孔 | G | HE |
 | tissue selectivity | 组织选择性 | G | HE；PFA语境 |

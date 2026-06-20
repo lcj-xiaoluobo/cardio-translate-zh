@@ -16,16 +16,16 @@
 | thrombolysis | 溶栓治疗 | T/G | — |
 | bleeding risk | 出血风险 | G | — |
 | major bleeding | 大出血 | G | 具体研究定义照录 |
-| pulmonary hypertension | 肺动脉高压 | A | 04.764；PH |
-| pulmonary arterial hypertension | 动脉性肺动脉高压 | A | 04.765；PAH |
+| pulmonary hypertension | 肺动脉高压 | A0 | 04.764；PH |
+| pulmonary arterial hypertension | 动脉性肺动脉高压 | A0 | 04.765；PAH |
 | chronic thromboembolic pulmonary hypertension | 慢性血栓栓塞性肺动脉高压 | G | CTEPH |
 | pulmonary embolism | 肺血栓栓塞症 | T/G | 临床可简称肺栓塞 |
-| pulmonary vascular resistance | 肺循环血管阻力 | A | 04.752；PVR |
+| pulmonary vascular resistance | 肺循环血管阻力 | A0 | 04.752；PVR |
 | mean pulmonary artery pressure | 平均肺动脉压 | T/G | mPAP |
 | pulmonary capillary wedge pressure | 肺毛细血管楔压 | T/N | PCWP |
 | ventilation-perfusion scan | 肺通气/灌注显像 | T/G | V/Q显像 |
 | balloon pulmonary angioplasty | 经皮肺动脉球囊成形术 | G | BPA |
-| pulmonary endarterectomy | 肺动脉内膜剥脱术 | A | 04.788；PEA |
+| pulmonary endarterectomy | 肺动脉内膜剥脱术 | A0 | 04.788；PEA |
 | aortic aneurysm | 主动脉瘤 | T/N | — |
 | aortic dissection | 主动脉夹层 | T/N | — |
 | intramural hematoma | 壁间血肿 | T/G | 主动脉语境 |

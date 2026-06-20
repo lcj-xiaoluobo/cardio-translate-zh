@@ -27,7 +27,7 @@
 | anteroseptal / midseptal accessory pathway | 前间隔/中间隔旁路 | G | M/HE |
 | atriofascicular pathway | 房束旁路 | G | M/HE；Mahaim型旁路之一 |
 | nodofascicular / nodoventricular pathway | 结-束/结-室旁路 | G | M/HE |
-| permanent junctional reciprocating tachycardia | 持续性交界性反复性心动过速 | A | 04.151；PJRT |
+| permanent junctional reciprocating tachycardia | 持续性交界性反复性心动过速 | A0 | 04.151；PJRT |
 | preexcitation | 预激 | T/N | M/HE |
 | delta wave | δ波 | T/N | M/HE |
 | accessory pathway potential | 旁路电位 | G | M/HE |
