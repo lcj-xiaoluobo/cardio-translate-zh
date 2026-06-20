@@ -1,4 +1,4 @@
 interface:
   display_name: "心血管医学文献中译"
-  short_description: "翻译文本、图片及PDF心血管医学文献并统一专业术语"
-  default_prompt: "使用 $translate-cardiovascular-literature-zh 将英文翻译为符合中国医学教材术语和阅读习惯的中文；要求专业、简洁、易懂、逻辑清晰、层次分明，并以心血管专科和解剖学专家标准审校。"
+  short_description: "依2025权威术语库翻译、统一并审校心血管医学文献"
+  default_prompt: "使用 $translate-cardiovascular-literature-zh，先按《心血管病学名词（2025）》A0术语库裁决术语，再完成医学语义还原、教材化重写与一致性审校。"

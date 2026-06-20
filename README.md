@@ -1,6 +1,6 @@
 # Cardiovascular Medical Literature Chinese Translator
 
-一个用于英文心血管医学文献中译的 Codex Skill。支持直接粘贴文本、图片、截图、扫描件、PDF、Word、演示文稿、电子表格、HTML、EPUB 等输入，采用中国大陆医学教材、指南和专业期刊常用术语，兼顾医学准确性、中文可读性和全文术语一致性。
+一个用于英文心血管医学文献中译的 Codex Skill。支持文本、图片、扫描件、PDF、Word、演示文稿、电子表格、HTML、EPUB 等输入。项目按用户要求将全国科学技术名词审定委员会《心血管病学名词（2025）》征求意见稿设为 A0 最高权限术语源，再结合中国大陆医学教材、指南和专业期刊处理未收录概念。
 
 ## 适用范围
 
@@ -14,7 +14,8 @@
 
 ## 核心能力
 
-- 使用中国大陆医学教材及指南中的规范常用术语
+- 将全国科学技术名词审定委员会《心血管病学名词（2025）》设为 A0 最高权限术语源，共收录 1434 条
+- 规范稿未收录的术语再按项目术语、医学教材、国内指南及权威期刊逐级裁决
 - 采用“医学语义还原→中国教材化改写”双阶段流程，兼顾准确性与中文自然度
 - 对解剖图注按观察方法、空间关系、血管走行、间隙边界和支撑关系自然分段
 - 对粘贴文本直接翻译，不添加不必要的前言和解释
@@ -32,11 +33,18 @@ translate-cardiovascular-literature-zh/
 ├── SKILL.md
 ├── agents/
 │   └── openai.yaml
-└── references/
-    ├── cardiovascular-terminology.md
-    ├── input-handling.md
-    ├── quality-control.md
-    └── translation-style.md
+├── references/
+│   ├── cardiovascular-terminology.md
+│   ├── input-handling.md
+│   ├── quality-control.md
+│   ├── translation-style.md
+│   └── terminology/
+│       ├── cnterm-2025/              # A0最高权限，按官方章节拆分
+│       ├── electrophysiology/        # 心脏电生理按需加载分库
+│       └── 其他心血管亚专业分库
+└── scripts/
+    ├── extract_cnterm_2025.py        # 从合法持有的PDF文本层重建术语分库
+    └── validate_terminology.py       # 校验条目数、编号冲突、路径和扩展库一致性
 ```
 
 ## 安装
@@ -77,6 +85,7 @@ git clone https://github.com/lcj-xiaoluobo/translate-cardiovascular-literature-z
 - 缩写首次出现时通常采用“中文全称（英文全称，缩写）”。
 - 人名或音译术语必要时采用“中文名（英文）”。
 - 同一术语在同一项目中保持统一译法。
+- 命中《心血管病学名词（2025）》时，采用其规范中文名，不被教材旧译或个人偏好覆盖。
 - 允许在不增加医学事实的前提下拆句、合句、调整语序及改写被动句，避免逐词直译和生硬复合词。
 - 仅在存在无法消除的 OCR、术语或原文歧义时增加“待核对项”。
 
