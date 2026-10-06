@@ -1,3 +1,0 @@
-Figure 1. A simplified view of the cardiac conduction system. Labels identify the sinoatrial node, atrioventricular node, His bundle, and right and left bundle branches. Right and left refer to the patient's anatomical sides, not the sides of the page.
-
-Each leader line identifies a single structure. If a label is too long to fit on one line, it may be split into two lines without moving the leader line or its endpoint. A shorter translation should not be used if it changes the anatomical meaning. The diagram illustrates the relationship between labeled structures; it does not show their exact dimensions.
