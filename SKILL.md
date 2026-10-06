@@ -1,6 +1,6 @@
 ---
 name: translate-cardiovascular-literature-zh
-description: Translate English cardiovascular medicine, cardiac anatomy, electrophysiology, intervention, imaging, surgery, and related textbook or academic content into polished Simplified Chinese using terminology customary in mainland Chinese medical textbooks. Use for pasted passages, figure legends, image labels, screenshots, scanned or text PDFs, Word, slides, spreadsheets, HTML, EPUB, bilingual translation, OCR correction, terminology unification, and translation review. Prioritize medically exact meaning, common Chinese terminology, natural textbook-style rewriting, clear logical structure, and strict verification of anatomy, laterality, numbers, citations, and figure-table relationships.
+description: Translate English cardiovascular medicine, cardiac anatomy, electrophysiology, intervention, imaging, surgery, and related textbook or academic content into polished Simplified Chinese, using the user-designated National Committee cardiovascular terminology draft (2025, 1,434 terms) as the highest-authority terminology source. Use for passages, textbooks, papers, figure legends, image labels, screenshots, scanned or text PDFs, Word, slides, spreadsheets, HTML, EPUB, bilingual translation, OCR correction, terminology unification, and translation review. Reconstruct medical meaning before textbook-style Chinese rewriting, preserve anatomy and document structure, and perform traceable terminology conflict review.
 ---
 
 # 心血管医学文献中译
@@ -20,7 +20,7 @@ description: Translate English cardiovascular medicine, cardiac anatomy, electro
 - 优先选择临床和教材中常用、易懂的术语；避免为了字面对应制造生硬复合词。
 - 允许拆句、合句、调整语序、补出中文所需主语、将被动句改为主动句，以及把形态名词改写为自然的形容性表达；这些调整不得增加原文没有的医学事实。
 - 严格保留否定、条件、比较、因果、时间关系、证据强度、解剖方位、数字、单位和引用。
-- 用户术语表、出版社规范及当前项目已确认译法具有最高优先级。
+- 《心血管病学名词（2025）》的 1,434 条规范中文名具有 A0 最高权限；只有用户随后对某个具体术语作出的明确指示可以形成有范围的项目例外。
 
 ## 必做的双阶段翻译
 
@@ -41,23 +41,47 @@ description: Translate English cardiovascular medicine, cardiac anatomy, electro
 5. 删除翻译腔、重复主语和不必要的“进行、相关、方面、所述”等套话。
 6. 朗读式检查中文：译文应像中国医学教材原生文字，而不是“看得懂的英文句法”。
 
-读取 `references/translation-style.md` 获取教材化句式、图注组织方法和微型示例。遇解剖或亚专业术语时读取 `references/cardiovascular-terminology.md`。
+读取 `references/translation-style.md` 获取教材化句式、图注组织方法和微型示例。遇解剖或亚专业术语时，必须先读取 `references/cardiovascular-terminology.md`：先检索 `references/terminology/cnterm-2025/` 的 A0 官方分库，再按路由只加载相关扩展分库。不可仅凭英文原词、机器翻译或国外指南自行创造中文术语。
 
 ## 医学术语与专名
 
 按以下顺序决定译名：
 
-1. 用户术语表、出版社规范和项目既定译法。
-2. 中国大陆权威医学教材及规范医学名词。
-3. 国内指南、专家共识和专业学会通行译法。
-4. 权威中文专业期刊中的稳定用法。
-5. 清晰意译、规范直译或保留英文。
+1. A0：《心血管病学名词（2025）》中概念确切对应的规范中文名。
+2. 用户随后明确指定的单项译法；只作为有范围的项目例外，不扩展到相近概念。
+3. 中国大陆权威医学教材及其他规范医学名词。
+4. 国内指南、专家共识和专业学会通行译法。
+5. 权威中文专业期刊中的稳定用法。
+6. 清晰意译、规范直译或保留英文。
 
 - 同一概念在同一项目中保持同一译法。
 - 缩写首次出现时通常写为“中文全称（英文全称，缩写）”；原文或前文已定义时不机械重复。
 - 有公认中文名的冠名术语使用公认译名；生僻或可能歧义者首次写为“中文名（英文）”。
 - 药物优先使用中国通用名称，不以商品名替代通用名。
 - 对 `crest`、`attachment`、`faces`、`skirts`、`compartment` 等词先判断具体解剖关系，再选择中文，不固定逐词对应。
+- A0 命中且概念一致时直接采用。扩展库标记为 `T` 的词可用于 A0 未收录概念；`N`、`G` 词须确认语境；`P` 词首次出现必须保留英文，并列入“待核对项”。
+- A0 中文名与旧教材、指南或项目旧译冲突时采用 A0 并统一全文。新技术在 A0 和教材均未收录时，采用国内指南或共识用语并记录其来源层级。
+
+## 特色工作流：语义链与术语裁决分离
+
+不要把术语命中当成翻译完成。每个复杂句段依次处理：
+
+1. 建立医学语义链，明确结构、侧别、位置、连接、机制、操作、条件和结局。
+2. 将候选术语送入 A0 与扩展分库裁决，记录冲突项及最终权限层级。
+3. 依据中文医学教材的信息顺序重写，不照搬英文定语堆叠和被动句法。
+4. 将译文反向对照语义链，确认重写没有改变事实、强度或空间关系。
+5. 长篇项目维护一致性表；只记录真正发生过的术语选择和项目例外。
+
+## 图像和图注适配
+
+参考医学图标注项目的可靠机制，但服务于本 Skill 的多格式翻译目标：
+
+1. 先检查同项目已完成样张，继承版式和命名风格。
+2. OCR 只用于识别和定位，不负责医学定名。
+3. 将同一标签的 OCR 碎片合并后再做 A0 术语裁决；短中文优先单行。
+4. 建立“英文—中文—引线端点—解剖结构”对应表，防止漏标和错配。
+5. 制作中文版图片时只替换文字，保持结构、尺寸、引线位置、长度和端点不变。
+6. 批量任务生成总览图，密集图执行全尺寸复核；图内不足以容纳专名英文时在图注补充。
 
 ## 输入处理
 
@@ -83,7 +107,7 @@ description: Translate English cardiovascular medicine, cardiac anatomy, electro
 
 - 不得漏译、重复翻译或擅自解释作者意图。
 - 不得为了中文顺畅改变左右、前后、上下、内外、近远端或结构归属。
-- 不得把罕见字面译法放在通行教材译法之前。
+- 不得以通行教材译法或个人偏好覆盖《心血管病学名词（2025）》命中项；未命中时，不得把罕见字面译法放在通行教材译法之前。
 - 不得在已有自然中文表达时堆叠“的”字结构或生造名词。
 - 不得把原文描述性语句改成更强的结论、推荐或因果关系。
 - 不得静默修正疑似作者错误；必要时忠实翻译并简短标注。
