@@ -1,4 +1,4 @@
-# Cardiovascular Medical Literature Chinese Translator
+# Cardio Translate · 心血管文献中译
 
 一个用于英文心血管医学文献中译的 Codex Skill。支持直接粘贴文本、图片、截图、扫描件、PDF、Word、演示文稿、电子表格、HTML、EPUB 等输入，以用户指定的《心血管病学名词（2025）》征求意见稿（1,434 条名词、30 个章节分库）为最高术语来源，结合教材、指南和专业期刊用语，兼顾医学准确性、中文可读性和全文术语一致性。
 
@@ -29,7 +29,7 @@
 ## 目录结构
 
 ```text
-translate-cardiovascular-literature-zh/
+cardio-translate-zh/
 ├── SKILL.md
 ├── agents/
 │   └── openai.yaml
@@ -49,7 +49,7 @@ translate-cardiovascular-literature-zh/
 ## 安装
 
 ```bash
-git clone https://github.com/lcj-xiaoluobo/translate-cardiovascular-literature-zh.git \
+git clone https://github.com/lcj-xiaoluobo/cardio-translate-zh.git \
   ~/.codex/skills/translate-cardiovascular-literature-zh
 ```
 
@@ -102,3 +102,5 @@ git clone https://github.com/lcj-xiaoluobo/translate-cardiovascular-literature-z
 ## 使用说明
 
 本仓库提供医学翻译工作流程、术语原则和质量控制规则。涉及出版、传播或大规模翻译第三方教材与论文时，请确认拥有相应的使用和翻译权限，并对最终医学术语进行专业复核。
+
+仓库名称与本机技能调用名分别维护。安装目录保留 `translate-cardiovascular-literature-zh`，以 `$translate-cardiovascular-literature-zh` 调用。
